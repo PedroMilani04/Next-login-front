@@ -7,16 +7,17 @@ export default function Logged() {
             </div>
             <div className="w-5/6  lg:w-1/2 bg-white rounded-xl p-4 md:p-20 mt-10 mb-10 text-center text-gray-500 " data-aos="flip-right">
                 <p className="mb-4">
-                    Congratulations! You've successfully logged into your account. The information you provided on the login page has been sent to the SQL Server, verified, and returned!
+                    Congratulations! You've successfully logged into your account. The information you provided on the log-in page has been sent to the SQL Server, verified, and returned!
                 </p>
                 <p className="mb-4">
                     Behind the scenes, a series of processes occur. Your login information is queried against the data stored on our server. If your email and password match a user ID that was generated upon registering, you're redirected to this page!
                 </p>
                 <p className="mb-4">
-                    This "Login screen" project was created with the primary goal of practicing Next.js integration with Tailwind CSS, connecting to SQL databases, and deploying databases online using services such as Heroku Cloud. 
+                    This "Login screen" project was created with the primary goal of practicing Next.js integration with Tailwind CSS, connecting to SQL databases, and deploying databases online using services such as Heroku Cloud to host the Back-End of this application, which holds the connection to the SQL DB, then accessed by the Front-end, hosted by Vercel, making all the Log-in proccess come together!
                 </p>
-                <p className="font-bold mb-4 "> Thank you for your time!</p>
-                <p className="font-light mb-1">See other projects of mine in my</p> <a href="https://pedro-portfolio-cyan.vercel.app" className="font-semibold hover:text-blue-400 transition duration-300 ease-linear ">Portfolio!</a>
+                <p className="font-light mb-1">You can see other projects of mine in my</p> <a href="https://pedro-portfolio-cyan.vercel.app" className="font-semibold hover:text-blue-400 transition duration-300 ease-linear ">Portfolio!</a>
+
+                <p className="font-bold mb-4 mt-4 bg-gradient-to-r from-blue-600 via-rose-400 to-pink-600 text-transparent bg-clip-text"> Thank you for your time!</p>
             </div>
         </div>
     );
