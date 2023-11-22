@@ -1,40 +1,62 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<div align="center">
+  
+# <a href="https://next-login-front.vercel.app">NextJS SQL Login</a>
+  
+  <img alt="GitHub tag (latest by date)" src="https://img.shields.io/github/v/tag/PedroMilani04/Next-login-front?color=2c2c2c&label=version&style=for-the-badge">
 
-## Getting Started
+  <br>
 
-First, run the development server:
+  
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## About
+Secure your application with NextJS SQL Login, a project that combines front-end and back-end technologies to implement a robust and user-friendly authentication system. This project incorporates a variety of technologies to ensure secure user login functionality and efficient data storage. The key technologies used are:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<br>
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Technologies Used
+<table>
+  <tr>
+    <td>Front End</td>
+    <td>Back End</td>
+  </tr>
+  <tr>
+    <td>TailwindCSS</td>
+    <td>AWS (Amazon Web Services)</td>
+  </tr>
+  <tr>
+    <td>JavaScript</td>
+    <td>MySQL Workbench</td>
+  </tr>
+  <tr>
+    <td>NextJS</td>
+    <td>Heroku</td>
+  </tr>
+  <tr>
+    <td></td>
+    <td>JawsDB</td>
+  </tr>
+</table>
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+The front end of this application is styled with TailwindCSS to create a modern and responsive user interface. The back end leverages AWS for hosting, MySQL Workbench for database management, and Heroku with JawsDB for efficient SQL database storage.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Experience NextJS SQL Login by visiting the [website](https://next-login-front.vercel.app) and explore the source code on [GitHub](https://github.com/PedroMilani04/Next-login-front.git).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<br><br>
 
-## Learn More
+## How to Run
+Clone this repository:
 
-To learn more about Next.js, take a look at the following resources:
+    git clone https://github.com/PedroMilani04/Next-login-front.git
+    
+Ensure you have Node.js installed on your computer. In the project folder, open your terminal and install the dependencies:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    npm install
+        or
+    yarn
+    
+To start the local development server, use the following command:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+    npm run dev
+        or
+    yarn dev
